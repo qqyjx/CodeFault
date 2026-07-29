@@ -1,0 +1,27 @@
+{
+  "repos_processed": 20,
+  "repos_failed": 0,
+  "total_samples": 5167,
+  "samples_per_repo": {
+    "spring-boot": 259,
+    "elasticsearch": 208,
+    "kafka": 340,
+    "guava": 374,
+    "RxJava": 139,
+    "okhttp": 18,
+    "retrofit": 203,
+    "dubbo": 365,
+    "netty": 366,
+    "fastjson": 316,
+    "django": 153,
+    "flask": 257,
+    "requests": 133,
+    "numpy": 172,
+    "pandas": 323,
+    "scikit-learn": 235,
+    "pytorch": 362,
+    "transformers": 275,
+    "ansible": 343,
+    "scrapy": 326
+  }
+}

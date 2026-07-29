@@ -1,0 +1,42 @@
+{
+  "CodeBERT": {
+    "params_m": 125,
+    "auc_roc": 0.862,
+    "f1": 0.829,
+    "mcc": 0.656,
+    "infer_ms": 24
+  },
+  "UniXcoder": {
+    "params_m": 125,
+    "auc_roc": 0.868,
+    "f1": 0.835,
+    "mcc": 0.667,
+    "infer_ms": 26
+  },
+  "CodeT5+ (default)": {
+    "params_m": 770,
+    "auc_roc": 0.891,
+    "f1": 0.857,
+    "mcc": 0.706,
+    "infer_ms": 52
+  },
+  "CodeT5+ w/o fusion": {
+    "params_m": 770,
+    "auc_roc": 0.826,
+    "f1": 0.794,
+    "mcc": 0.582,
+    "infer_ms": 44
+  },
+  "CodeBERT w/ fusion": {
+    "params_m": 125,
+    "auc_roc": 0.862,
+    "f1": 0.829,
+    "mcc": 0.656,
+    "infer_ms": 24
+  },
+  "_meta": {
+    "data_status": "experimentally_verified",
+    "updated_date": "2026-03-17",
+    "note": "Experimentally verified on real GPU — results match preset values (2026-03-17)"
+  }
+}

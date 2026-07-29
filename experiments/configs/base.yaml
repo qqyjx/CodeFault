@@ -1,0 +1,45 @@
+# CodeFault Configuration
+# Target: ASE 2026
+
+# Model Configuration
+model:
+  code_model: "Salesforce/codet5p-770m"
+  hidden_size: 768
+  log_vocab_size: 10000
+  num_log_layers: 4
+  num_heads: 8
+  num_fault_types: 9  # K=8 fault categories + normal
+
+# Data Configuration
+data:
+  path: "data/processed"
+  log_vocab: "data/log_vocab.json"
+  max_code_len: 512
+  max_log_len: 256
+
+# Training Configuration
+training:
+  batch_size: 32
+  num_epochs: 10
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  warmup_epochs: 1
+  temperature: 0.07
+  lambda_contrastive: 0.1
+  lambda_align: 0.05
+  lambda_normal: 0.02
+  gradient_clip: 1.0
+  
+# Evaluation Configuration
+evaluation:
+  threshold: 0.5
+  top_k: 0.2
+
+# Hardware
+hardware:
+  num_gpus: 4
+  fp16: true
+  
+# Paths
+output_dir: "outputs"
+log_dir: "logs"

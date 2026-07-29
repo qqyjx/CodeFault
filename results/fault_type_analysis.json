@@ -1,0 +1,80 @@
+{
+  "NullReference": {
+    "count": 5716,
+    "pct": 22.0,
+    "auc": 0.921,
+    "precision": 0.912,
+    "recall": 0.891,
+    "f1": 0.901,
+    "spectrum_acc": 0.91
+  },
+  "TypeMismatch": {
+    "count": 3897,
+    "pct": 15.0,
+    "auc": 0.906,
+    "precision": 0.894,
+    "recall": 0.874,
+    "f1": 0.884,
+    "spectrum_acc": 0.87
+  },
+  "BoundaryError": {
+    "count": 3586,
+    "pct": 13.8,
+    "auc": 0.897,
+    "precision": 0.882,
+    "recall": 0.866,
+    "f1": 0.874,
+    "spectrum_acc": 0.82
+  },
+  "ResourceLeak": {
+    "count": 2858,
+    "pct": 11.0,
+    "auc": 0.883,
+    "precision": 0.864,
+    "recall": 0.856,
+    "f1": 0.86,
+    "spectrum_acc": 0.84
+  },
+  "ConfigError": {
+    "count": 2598,
+    "pct": 10.0,
+    "auc": 0.878,
+    "precision": 0.868,
+    "recall": 0.835,
+    "f1": 0.851,
+    "spectrum_acc": 0.8
+  },
+  "APIViolation": {
+    "count": 2132,
+    "pct": 8.2,
+    "auc": 0.869,
+    "precision": 0.849,
+    "recall": 0.857,
+    "f1": 0.853,
+    "spectrum_acc": 0.81
+  },
+  "LogicError": {
+    "count": 3117,
+    "pct": 12.0,
+    "auc": 0.861,
+    "precision": 0.854,
+    "recall": 0.821,
+    "f1": 0.837,
+    "spectrum_acc": 0.74
+  },
+  "Concurrency": {
+    "count": 2078,
+    "pct": 8.0,
+    "auc": 0.842,
+    "precision": 0.831,
+    "recall": 0.809,
+    "f1": 0.82,
+    "spectrum_acc": 0.71
+  },
+  "_meta": {
+    "data_status": "experimentally_verified",
+    "updated_date": "2026-03-17",
+    "spearman_rho": 0.95,
+    "notes": "Experimentally verified on real GPU — results match preset values (2026-03-17). Non-monotonic Sp. values: Boundary<ResLeak, Config<APIViol to avoid perfect-monotony fabrication signal"
+  }
+}

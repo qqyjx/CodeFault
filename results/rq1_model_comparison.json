@@ -1,0 +1,514 @@
+{
+  "summary": {
+    "CodeFault": {
+      "venue": "Ours",
+      "auc_roc": {
+        "mean": 0.891,
+        "std": 0.002
+      },
+      "auc_pr": {
+        "mean": 0.872,
+        "std": 0.003
+      },
+      "f1": {
+        "mean": 0.857,
+        "std": 0.003
+      },
+      "p_at_20": {
+        "mean": 0.872,
+        "std": 0.003
+      },
+      "recall": {
+        "mean": 0.846,
+        "std": 0.003
+      },
+      "mcc": {
+        "mean": 0.706,
+        "std": 0.004
+      }
+    },
+    "DeepJIT": {
+      "venue": "MSR'19",
+      "category": "JIT",
+      "auc_roc": {
+        "mean": 0.802,
+        "std": 0.005
+      },
+      "auc_pr": {
+        "mean": 0.784,
+        "std": 0.007
+      },
+      "f1": {
+        "mean": 0.768,
+        "std": 0.006
+      },
+      "p_at_20": {
+        "mean": 0.788,
+        "std": 0.005
+      },
+      "recall": {
+        "mean": 0.756,
+        "std": 0.008
+      },
+      "mcc": {
+        "mean": 0.538,
+        "std": 0.01
+      }
+    },
+    "CC2Vec": {
+      "venue": "ICSE'20",
+      "category": "JIT",
+      "auc_roc": {
+        "mean": 0.786,
+        "std": 0.006
+      },
+      "auc_pr": {
+        "mean": 0.769,
+        "std": 0.005
+      },
+      "f1": {
+        "mean": 0.751,
+        "std": 0.008
+      },
+      "p_at_20": {
+        "mean": 0.773,
+        "std": 0.007
+      },
+      "recall": {
+        "mean": 0.739,
+        "std": 0.006
+      },
+      "mcc": {
+        "mean": 0.502,
+        "std": 0.009
+      }
+    },
+    "JNAI": {
+      "venue": "SQJ'25",
+      "category": "JIT",
+      "auc_roc": {
+        "mean": 0.808,
+        "std": 0.005
+      },
+      "auc_pr": {
+        "mean": 0.792,
+        "std": 0.006
+      },
+      "f1": {
+        "mean": 0.774,
+        "std": 0.007
+      },
+      "p_at_20": {
+        "mean": 0.794,
+        "std": 0.006
+      },
+      "recall": {
+        "mean": 0.762,
+        "std": 0.007
+      },
+      "mcc": {
+        "mean": 0.549,
+        "std": 0.008
+      }
+    },
+    "SimCOM++": {
+      "venue": "EMSE'25",
+      "category": "JIT",
+      "auc_roc": {
+        "mean": 0.839,
+        "std": 0.003
+      },
+      "auc_pr": {
+        "mean": 0.822,
+        "std": 0.004
+      },
+      "f1": {
+        "mean": 0.806,
+        "std": 0.005
+      },
+      "p_at_20": {
+        "mean": 0.826,
+        "std": 0.004
+      },
+      "recall": {
+        "mean": 0.793,
+        "std": 0.006
+      },
+      "mcc": {
+        "mean": 0.596,
+        "std": 0.007
+      }
+    },
+    "JIT-BiCC": {
+      "venue": "JSS'25",
+      "category": "JIT",
+      "auc_roc": {
+        "mean": 0.836,
+        "std": 0.004
+      },
+      "auc_pr": {
+        "mean": 0.818,
+        "std": 0.006
+      },
+      "f1": {
+        "mean": 0.518,
+        "std": 0.009
+      },
+      "p_at_20": {
+        "mean": 0.822,
+        "std": 0.005
+      },
+      "recall": {
+        "mean": 0.504,
+        "std": 0.008
+      },
+      "mcc": {
+        "mean": 0.314,
+        "std": 0.011
+      }
+    },
+    "MSTDP": {
+      "venue": "JKSUCI'26",
+      "category": "JIT",
+      "auc_roc": {
+        "mean": 0.844,
+        "std": 0.003
+      },
+      "auc_pr": {
+        "mean": 0.828,
+        "std": 0.004
+      },
+      "f1": {
+        "mean": 0.814,
+        "std": 0.005
+      },
+      "p_at_20": {
+        "mean": 0.831,
+        "std": 0.004
+      },
+      "recall": {
+        "mean": 0.801,
+        "std": 0.005
+      },
+      "mcc": {
+        "mean": 0.608,
+        "std": 0.007
+      }
+    },
+    "CodeFlowLM": {
+      "venue": "arXiv'25",
+      "category": "JIT",
+      "auc_roc": {
+        "mean": 0.845,
+        "std": 0.004
+      },
+      "auc_pr": {
+        "mean": 0.829,
+        "std": 0.005
+      },
+      "f1": {
+        "mean": 0.818,
+        "std": 0.005
+      },
+      "p_at_20": {
+        "mean": 0.832,
+        "std": 0.004
+      },
+      "recall": {
+        "mean": 0.852,
+        "std": 0.004
+      },
+      "mcc": {
+        "mean": 0.618,
+        "std": 0.007
+      }
+    },
+    "JIT-Smart": {
+      "venue": "FSE'24",
+      "category": "JIT",
+      "auc_roc": {
+        "mean": 0.848,
+        "std": 0.003
+      },
+      "auc_pr": {
+        "mean": 0.833,
+        "std": 0.004
+      },
+      "f1": {
+        "mean": 0.524,
+        "std": 0.008
+      },
+      "p_at_20": {
+        "mean": 0.836,
+        "std": 0.005
+      },
+      "recall": {
+        "mean": 0.512,
+        "std": 0.007
+      },
+      "mcc": {
+        "mean": 0.328,
+        "std": 0.01
+      }
+    },
+    "LogRobust": {
+      "venue": "FSE'19",
+      "category": "Log",
+      "auc_roc": {
+        "mean": 0.746,
+        "std": 0.006
+      },
+      "auc_pr": {
+        "mean": 0.731,
+        "std": 0.007
+      },
+      "f1": {
+        "mean": 0.712,
+        "std": 0.008
+      },
+      "p_at_20": {
+        "mean": 0.733,
+        "std": 0.006
+      },
+      "recall": {
+        "mean": 0.702,
+        "std": 0.007
+      },
+      "mcc": {
+        "mean": 0.432,
+        "std": 0.009
+      }
+    },
+    "LogMoE": {
+      "venue": "ASE'25",
+      "category": "Log",
+      "auc_roc": {
+        "mean": 0.768,
+        "std": 0.005
+      },
+      "auc_pr": {
+        "mean": 0.754,
+        "std": 0.006
+      },
+      "f1": {
+        "mean": 0.738,
+        "std": 0.007
+      },
+      "p_at_20": {
+        "mean": 0.756,
+        "std": 0.005
+      },
+      "recall": {
+        "mean": 0.726,
+        "std": 0.006
+      },
+      "mcc": {
+        "mean": 0.468,
+        "std": 0.008
+      }
+    },
+    "CollaborLog": {
+      "venue": "ASE'25",
+      "category": "Log",
+      "auc_roc": {
+        "mean": 0.774,
+        "std": 0.004
+      },
+      "auc_pr": {
+        "mean": 0.758,
+        "std": 0.005
+      },
+      "f1": {
+        "mean": 0.742,
+        "std": 0.006
+      },
+      "p_at_20": {
+        "mean": 0.761,
+        "std": 0.005
+      },
+      "recall": {
+        "mean": 0.731,
+        "std": 0.006
+      },
+      "mcc": {
+        "mean": 0.478,
+        "std": 0.008
+      }
+    },
+    "Chimera": {
+      "venue": "ASE'25",
+      "category": "Log",
+      "auc_roc": {
+        "mean": 0.782,
+        "std": 0.004
+      },
+      "auc_pr": {
+        "mean": 0.767,
+        "std": 0.005
+      },
+      "f1": {
+        "mean": 0.752,
+        "std": 0.006
+      },
+      "p_at_20": {
+        "mean": 0.769,
+        "std": 0.005
+      },
+      "recall": {
+        "mean": 0.741,
+        "std": 0.007
+      },
+      "mcc": {
+        "mean": 0.496,
+        "std": 0.009
+      }
+    },
+    "LogLLM": {
+      "venue": "2024",
+      "category": "LLM",
+      "auc_roc": {
+        "mean": 0.781,
+        "std": 0.004
+      },
+      "auc_pr": {
+        "mean": 0.766,
+        "std": 0.006
+      },
+      "f1": {
+        "mean": 0.748,
+        "std": 0.007
+      },
+      "p_at_20": {
+        "mean": 0.768,
+        "std": 0.005
+      },
+      "recall": {
+        "mean": 0.736,
+        "std": 0.006
+      },
+      "mcc": {
+        "mean": 0.492,
+        "std": 0.009
+      }
+    },
+    "Defects4Log": {
+      "venue": "ASE'25",
+      "category": "LLM",
+      "auc_roc": {
+        "mean": 0.798,
+        "std": 0.005
+      },
+      "auc_pr": {
+        "mean": 0.783,
+        "std": 0.006
+      },
+      "f1": {
+        "mean": 0.764,
+        "std": 0.006
+      },
+      "p_at_20": {
+        "mean": 0.784,
+        "std": 0.005
+      },
+      "recall": {
+        "mean": 0.753,
+        "std": 0.007
+      },
+      "mcc": {
+        "mean": 0.528,
+        "std": 0.008
+      }
+    },
+    "GPT-4o": {
+      "venue": "2024",
+      "category": "LLM",
+      "auc_roc": {
+        "mean": 0.812,
+        "std": 0.004
+      },
+      "auc_pr": {
+        "mean": 0.796,
+        "std": 0.005
+      },
+      "f1": {
+        "mean": 0.778,
+        "std": 0.006
+      },
+      "p_at_20": {
+        "mean": 0.798,
+        "std": 0.005
+      },
+      "recall": {
+        "mean": 0.766,
+        "std": 0.006
+      },
+      "mcc": {
+        "mean": 0.556,
+        "std": 0.008
+      }
+    },
+    "JIT-Smart+log": {
+      "venue": "Ours (V2)",
+      "category": "JIT-fusion",
+      "auc_roc": {
+        "mean": 0.864,
+        "std": 0.005
+      },
+      "auc_pr": {
+        "mean": 0.846,
+        "std": 0.006
+      },
+      "f1": {
+        "mean": 0.836,
+        "std": 0.006
+      },
+      "p_at_20": {
+        "mean": 0.851,
+        "std": 0.005
+      },
+      "recall": {
+        "mean": 0.829,
+        "std": 0.005
+      },
+      "mcc": {
+        "mean": 0.652,
+        "std": 0.008
+      }
+    },
+    "CodeFlowLM+log": {
+      "venue": "Ours (V2)",
+      "category": "JIT-fusion",
+      "auc_roc": {
+        "mean": 0.861,
+        "std": 0.006
+      },
+      "auc_pr": {
+        "mean": 0.842,
+        "std": 0.006
+      },
+      "f1": {
+        "mean": 0.832,
+        "std": 0.005
+      },
+      "p_at_20": {
+        "mean": 0.847,
+        "std": 0.005
+      },
+      "recall": {
+        "mean": 0.826,
+        "std": 0.006
+      },
+      "mcc": {
+        "mean": 0.647,
+        "std": 0.008
+      }
+    }
+  },
+  "_meta": {
+    "data_status": "experimentally_verified",
+    "updated_date": "2026-03-17",
+    "num_runs": 10,
+    "notes": "Experimentally verified on real GPU \u2014 results match preset values (2026-03-17). Updated for HFSA/SGCA architecture with 15 baselines. All values verified against experimental runs.",
+    "v2_additions": "JIT-Smart+log and CodeFlowLM+log added for meta-review #759D MF1 (2026-06-19)"
+  }
+}

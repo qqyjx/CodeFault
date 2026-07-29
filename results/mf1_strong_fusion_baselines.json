@@ -1,0 +1,125 @@
+{
+  "_meta": {
+    "experiment": "MF1 strong code-only baselines augmented with log features (AC mandate #1)",
+    "seeds": [
+      42,
+      1337,
+      2024
+    ],
+    "epochs": 10,
+    "batch_size": 32,
+    "lr": 2e-05,
+    "data_status": "experimentally_verified_revision_v2",
+    "generated_at": "2026-06-18T12:17:37"
+  },
+  "results": {
+    "JIT-Smart+log": {
+      "auc_pr": {
+        "mean": 0.9997666666666666,
+        "std": 4.714045207909797e-05
+      },
+      "auc_roc": {
+        "mean": 0.9987,
+        "std": 0.0003741657386774024
+      },
+      "f1": {
+        "mean": 0.9900666666666665,
+        "std": 0.0022095751225568697
+      },
+      "mcc": {
+        "mean": 0.9440000000000001,
+        "std": 0.010611628841354501
+      },
+      "p_at_20": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "precision": {
+        "mean": 0.9979,
+        "std": 0.0025455844122716045
+      },
+      "recall": {
+        "mean": 0.9824,
+        "std": 0.006731022705849878
+      },
+      "seeds": [
+        42,
+        1337,
+        2024
+      ],
+      "val_auc_per_seed": [
+        0.9989,
+        0.9985,
+        0.9981
+      ],
+      "per_seed": [
+        {
+          "seed": 42,
+          "test_auc_roc": 0.9991
+        },
+        {
+          "seed": 1337,
+          "test_auc_roc": 0.9988
+        },
+        {
+          "seed": 2024,
+          "test_auc_roc": 0.9982
+        }
+      ]
+    },
+    "CodeFlowLM+log": {
+      "auc_pr": {
+        "mean": 0.9997333333333334,
+        "std": 9.428090415819596e-05
+      },
+      "auc_roc": {
+        "mean": 0.9986,
+        "std": 0.0005887840577551752
+      },
+      "f1": {
+        "mean": 0.9881666666666667,
+        "std": 0.001222929088522909
+      },
+      "mcc": {
+        "mean": 0.9310666666666666,
+        "std": 0.010930487434490552
+      },
+      "p_at_20": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "precision": {
+        "mean": 0.9911333333333333,
+        "std": 0.01197395321335258
+      },
+      "recall": {
+        "mean": 0.9853666666666667,
+        "std": 0.009654820327461084
+      },
+      "seeds": [
+        42,
+        1337,
+        2024
+      ],
+      "val_auc_per_seed": [
+        0.9993,
+        0.9984,
+        0.9979
+      ],
+      "per_seed": [
+        {
+          "seed": 42,
+          "test_auc_roc": 0.9992
+        },
+        {
+          "seed": 1337,
+          "test_auc_roc": 0.9988
+        },
+        {
+          "seed": 2024,
+          "test_auc_roc": 0.9978
+        }
+      ]
+    }
+  }
+}

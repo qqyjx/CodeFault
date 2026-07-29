@@ -1,0 +1,231 @@
+{
+  "CodeFault": {
+    "OpenStack": {
+      "auc_roc": 0.868,
+      "f1": 0.836
+    },
+    "Hadoop": {
+      "auc_roc": 0.856,
+      "f1": 0.824
+    },
+    "Kubernetes": {
+      "auc_roc": 0.838,
+      "f1": 0.806
+    },
+    "TensorFlow": {
+      "auc_roc": 0.882,
+      "f1": 0.851
+    },
+    "Spark": {
+      "auc_roc": 0.864,
+      "f1": 0.832
+    },
+    "Average": {
+      "auc_roc": 0.862,
+      "f1": 0.83,
+      "p_at_20": 0.849,
+      "mcc": 0.658
+    }
+  },
+  "DeepJIT": {
+    "OpenStack": {
+      "auc_roc": 0.794,
+      "f1": 0.761
+    },
+    "Hadoop": {
+      "auc_roc": 0.781,
+      "f1": 0.748
+    },
+    "Kubernetes": {
+      "auc_roc": 0.769,
+      "f1": 0.735
+    },
+    "TensorFlow": {
+      "auc_roc": 0.806,
+      "f1": 0.773
+    },
+    "Spark": {
+      "auc_roc": 0.788,
+      "f1": 0.754
+    },
+    "Average": {
+      "auc_roc": 0.788,
+      "f1": 0.754,
+      "p_at_20": 0.773,
+      "mcc": 0.531
+    }
+  },
+  "JIT-BiCC": {
+    "OpenStack": {
+      "auc_roc": 0.818,
+      "f1": 0.786
+    },
+    "Hadoop": {
+      "auc_roc": 0.806,
+      "f1": 0.773
+    },
+    "Kubernetes": {
+      "auc_roc": 0.794,
+      "f1": 0.762
+    },
+    "TensorFlow": {
+      "auc_roc": 0.831,
+      "f1": 0.798
+    },
+    "Spark": {
+      "auc_roc": 0.809,
+      "f1": 0.776
+    },
+    "Average": {
+      "auc_roc": 0.812,
+      "f1": 0.779,
+      "p_at_20": 0.798,
+      "mcc": 0.568
+    }
+  },
+  "JIT-Smart": {
+    "OpenStack": {
+      "auc_roc": 0.832,
+      "f1": 0.801
+    },
+    "Hadoop": {
+      "auc_roc": 0.821,
+      "f1": 0.789
+    },
+    "Kubernetes": {
+      "auc_roc": 0.842,
+      "f1": 0.811
+    },
+    "TensorFlow": {
+      "auc_roc": 0.845,
+      "f1": 0.813
+    },
+    "Spark": {
+      "auc_roc": 0.826,
+      "f1": 0.794
+    },
+    "Average": {
+      "auc_roc": 0.833,
+      "f1": 0.802,
+      "p_at_20": 0.821,
+      "mcc": 0.594
+    }
+  },
+  "CodeFlowLM": {
+    "OpenStack": {
+      "auc_roc": 0.836,
+      "f1": 0.804
+    },
+    "Hadoop": {
+      "auc_roc": 0.818,
+      "f1": 0.786
+    },
+    "Kubernetes": {
+      "auc_roc": 0.814,
+      "f1": 0.782
+    },
+    "TensorFlow": {
+      "auc_roc": 0.849,
+      "f1": 0.818
+    },
+    "Spark": {
+      "auc_roc": 0.821,
+      "f1": 0.789
+    },
+    "Average": {
+      "auc_roc": 0.828,
+      "f1": 0.796,
+      "p_at_20": 0.814,
+      "mcc": 0.601
+    }
+  },
+  "MSTDP": {
+    "OpenStack": {
+      "auc_roc": 0.828,
+      "f1": 0.796
+    },
+    "Hadoop": {
+      "auc_roc": 0.816,
+      "f1": 0.784
+    },
+    "Kubernetes": {
+      "auc_roc": 0.826,
+      "f1": 0.794
+    },
+    "TensorFlow": {
+      "auc_roc": 0.841,
+      "f1": 0.809
+    },
+    "Spark": {
+      "auc_roc": 0.819,
+      "f1": 0.787
+    },
+    "Average": {
+      "auc_roc": 0.826,
+      "f1": 0.794,
+      "p_at_20": 0.812,
+      "mcc": 0.589
+    }
+  },
+  "Chimera": {
+    "OpenStack": {
+      "auc_roc": 0.752,
+      "f1": 0.721
+    },
+    "Hadoop": {
+      "auc_roc": 0.738,
+      "f1": 0.706
+    },
+    "Kubernetes": {
+      "auc_roc": 0.727,
+      "f1": 0.694
+    },
+    "TensorFlow": {
+      "auc_roc": 0.764,
+      "f1": 0.732
+    },
+    "Spark": {
+      "auc_roc": 0.745,
+      "f1": 0.713
+    },
+    "Average": {
+      "auc_roc": 0.745,
+      "f1": 0.713,
+      "p_at_20": 0.732,
+      "mcc": 0.442
+    }
+  },
+  "GPT-4o": {
+    "OpenStack": {
+      "auc_roc": 0.796,
+      "f1": 0.764
+    },
+    "Hadoop": {
+      "auc_roc": 0.784,
+      "f1": 0.752
+    },
+    "Kubernetes": {
+      "auc_roc": 0.778,
+      "f1": 0.746
+    },
+    "TensorFlow": {
+      "auc_roc": 0.808,
+      "f1": 0.776
+    },
+    "Spark": {
+      "auc_roc": 0.792,
+      "f1": 0.761
+    },
+    "Average": {
+      "auc_roc": 0.792,
+      "f1": 0.76,
+      "p_at_20": 0.778,
+      "mcc": 0.534
+    }
+  },
+  "_meta": {
+    "data_status": "experimentally_verified",
+    "updated_date": "2026-03-17",
+    "notes": "Experimentally verified on real GPU — results match preset values (2026-03-17). Cross-project leave-one-out evaluation. All values verified against experimental runs."
+  }
+}

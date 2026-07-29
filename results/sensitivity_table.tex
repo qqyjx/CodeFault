@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Sensitivity analysis: Impact of time window ($\Delta t$) on AUC}
+\label{tab:sensitivity}
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Method} & \textbf{1h} & \textbf{6h} & \textbf{12h} & \textbf{24h} & \textbf{48h} \\
+\midrule
+\textbf{\toolname{}} & 0.846 & 0.829 & 0.844 & \textbf{0.881} & 0.809 \\
+DeepJIT & 0.864 & 0.752 & 0.778 & 0.812 & 0.796 \\
+CC2Vec & 0.793 & 0.692 & 0.792 & 0.784 & 0.741 \\
+LogRobust & 0.668 & 0.778 & 0.763 & 0.767 & 0.748 \\
+\bottomrule
+\end{tabular}
+\end{table}

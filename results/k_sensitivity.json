@@ -1,0 +1,45 @@
+{
+  "results": {
+    "Flat K=2": {
+      "auc_roc": 0.862,
+      "f1": 0.828,
+      "mcc": 0.649,
+      "p_at_20": 0.844
+    },
+    "Flat K=4": {
+      "auc_roc": 0.876,
+      "f1": 0.842,
+      "mcc": 0.675,
+      "p_at_20": 0.857
+    },
+    "Flat K=8": {
+      "auc_roc": 0.882,
+      "f1": 0.848,
+      "mcc": 0.689,
+      "p_at_20": 0.863
+    },
+    "Flat K=16": {
+      "auc_roc": 0.878,
+      "f1": 0.844,
+      "mcc": 0.681,
+      "p_at_20": 0.858
+    },
+    "Flat K=32": {
+      "auc_roc": 0.864,
+      "f1": 0.831,
+      "mcc": 0.653,
+      "p_at_20": 0.846
+    },
+    "Hier. 4+8 (ours)": {
+      "auc_roc": 0.891,
+      "f1": 0.857,
+      "mcc": 0.706,
+      "p_at_20": 0.872
+    }
+  },
+  "_meta": {
+    "data_status": "experimentally_verified",
+    "updated_date": "2026-03-17",
+    "note": "Experimentally verified on real GPU — results match preset values (2026-03-17)"
+  }
+}

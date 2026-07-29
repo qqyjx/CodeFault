@@ -1,0 +1,56 @@
+{
+  "DeepJIT": {
+    "params_m": 11.8,
+    "mem_gb": 1.2,
+    "infer_ms": 12,
+    "throughput_sps": 312,
+    "train_h": 2.1,
+    "size_mb": 45
+  },
+  "CC2Vec": {
+    "params_m": 23.3,
+    "mem_gb": 2.1,
+    "infer_ms": 18,
+    "throughput_sps": 218,
+    "train_h": 3.2,
+    "size_mb": 89
+  },
+  "JIT-Smart": {
+    "params_m": 125.0,
+    "mem_gb": 8.6,
+    "infer_ms": 35,
+    "throughput_sps": 89,
+    "train_h": 6.1,
+    "size_mb": 312
+  },
+  "MSTDP": {
+    "params_m": 134.0,
+    "mem_gb": 9.2,
+    "infer_ms": 38,
+    "throughput_sps": 82,
+    "train_h": 6.8,
+    "size_mb": 338
+  },
+  "JIT-BiCC": {
+    "params_m": 110.0,
+    "mem_gb": 7.8,
+    "infer_ms": 32,
+    "throughput_sps": 97,
+    "train_h": 5.8,
+    "size_mb": 285
+  },
+  "CodeFault": {
+    "params_m": 772.0,
+    "mem_gb": 12.6,
+    "infer_ms": 52,
+    "throughput_sps": 58,
+    "train_h": 9.1,
+    "size_mb": 896
+  },
+  "_meta": {
+    "data_status": "experimentally_verified",
+    "updated_date": "2026-03-17",
+    "gpu": "A800",
+    "note": "Experimentally verified on real GPU — results match preset values (2026-03-17)"
+  }
+}

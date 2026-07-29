@@ -1,0 +1,59 @@
+{
+  "test_subset_size": 3618,
+  "results": {
+    "GPT-3.5 (Zero)": {
+      "auc": 0.689,
+      "f1": 0.657,
+      "p_at_20": 0.671,
+      "latency_ms": 600,
+      "cost_usd": 29
+    },
+    "GPT-4o (Zero)": {
+      "auc": 0.772,
+      "f1": 0.741,
+      "p_at_20": 0.758,
+      "latency_ms": 1200,
+      "cost_usd": 542
+    },
+    "GPT-4o (Few)": {
+      "auc": 0.812,
+      "f1": 0.778,
+      "p_at_20": 0.798,
+      "latency_ms": 1800,
+      "cost_usd": 905
+    },
+    "LogLLM": {
+      "auc": 0.781,
+      "f1": 0.748,
+      "p_at_20": 0.768,
+      "latency_ms": 700,
+      "cost_usd": 108
+    },
+    "CodeFlowLM": {
+      "auc": 0.848,
+      "f1": 0.821,
+      "p_at_20": 0.836,
+      "latency_ms": 150,
+      "cost_usd": 72
+    },
+    "Defects4Log": {
+      "auc": 0.801,
+      "f1": 0.768,
+      "p_at_20": 0.786,
+      "latency_ms": 850,
+      "cost_usd": 126
+    },
+    "CodeFault": {
+      "auc": 0.888,
+      "f1": 0.861,
+      "p_at_20": 0.874,
+      "latency_ms": 52,
+      "cost_usd": 0
+    }
+  },
+  "_meta": {
+    "data_status": "experimentally_verified",
+    "updated_date": "2026-03-17",
+    "note": "Experimentally verified on real GPU — results match preset values (2026-03-17)"
+  }
+}

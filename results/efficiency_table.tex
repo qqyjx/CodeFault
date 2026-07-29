@@ -1,0 +1,19 @@
+
+\begin{table}[t]
+\centering
+\caption{RQ4: Efficiency comparison of fault prediction models}
+\label{tab:efficiency}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Method} & \textbf{Params (M)} & \textbf{Size (MB)} & \textbf{Latency (ms)} & \textbf{Throughput} \\
+\midrule
+\textbf{CodeFault} & \textbf{0.66} & \textbf{2.5} & \textbf{1.79} & \textbf{560} \\
+DeepJIT & 0.40 & 1.5 & 0.44 & 2276 \\
+CC2Vec & 0.30 & 1.1 & 0.55 & 1835 \\
+JIT-Fine & 0.56 & 2.2 & 2.40 & 416 \\
+LAPredict & 0.66 & 2.5 & 0.78 & 1277 \\
+LogRobust & 0.73 & 2.8 & 0.61 & 1638 \\
+
+\bottomrule
+\end{tabular}
+\end{table}
