@@ -1,6 +1,6 @@
-# CodeFault: Predicting Fault Risks from Code Changes via Multi-Modal Learning
+# CodeFault: Predicting Fault Risks from Code Changes via Multi-modal Learning
 
-Replication package for the ASE 2026 paper **"CodeFault: Predicting Fault Risks from Code Changes via Multi-Modal Learning"** (paper #759).
+Replication package for the ASE 2026 paper **"CodeFault: Predicting Fault Risks from Code Changes via Multi-modal Learning"** (paper #759).
 
 A long-term archived copy of this repository (including all data) is deposited on Zenodo: DOI to be added upon camera-ready.
 
@@ -24,7 +24,7 @@ A long-term archived copy of this repository (including all data) is deposited o
 │   ├── normal_commits.json                 # Mined benign commits
 │   └── metadata.json                       # Dataset statistics and fault-type taxonomy
 ├── results/                  # JSON results backing every table and figure,
-│                             # incl. rq7_deployment.json (CI/CD pair index)
+│                             # incl. rq7_deployment.json (real CI/CD aggregate results)
 └── requirements.txt
 ```
 
