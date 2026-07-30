@@ -2,7 +2,7 @@
 
 Replication package for the ASE 2026 paper **"CodeFault: Predicting Fault Risks from Code Changes via Multi-modal Learning"** (paper #759).
 
-A long-term archived copy of this repository (including all data) is deposited on Zenodo: DOI to be added upon camera-ready.
+A long-term archived copy of this repository (including all data) is deposited on Zenodo: https://doi.org/10.5281/zenodo.21698209 (this DOI always resolves to the latest version).
 
 ## Contents
 

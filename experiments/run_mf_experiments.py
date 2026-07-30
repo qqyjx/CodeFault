@@ -15,7 +15,7 @@ MF2 (AC mandate #2): Random-pairing causality isolation
     how much comes from breaking shared fault-type association vs. breaking a meaningful
     code-to-runtime correspondence?
 
-Both run on the unified 36,184-sample split with seeds {42, 1337, 2024}; results land
+Both run on the unified 31,142-sample split with seeds {42, 1337, 2024}; results land
 in results/mf1_strong_fusion_baselines.json and results/mf2_within_type_random.json.
 
 Usage:

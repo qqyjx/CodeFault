@@ -55,62 +55,62 @@
     }
   },
   "rq7b_class_distribution": {
-    "description": "Performance under different positive rates (71.8% training vs 15% realistic)",
+    "description": "Performance under different positive rates (83.4% native training distribution vs 15% realistic)",
     "results": {
       "CodeFault": {
-        "auc_71": 0.891,
+        "auc_native": 0.891,
         "auc_15": 0.872,
-        "f1_71": 0.857,
+        "f1_native": 0.857,
         "f1_15": 0.824,
-        "mcc_71": 0.706,
+        "mcc_native": 0.706,
         "mcc_15": 0.682
       },
       "JIT-Smart": {
-        "auc_71": 0.848,
+        "auc_native": 0.848,
         "auc_15": 0.831,
-        "f1_71": 0.524,
+        "f1_native": 0.524,
         "f1_15": 0.498,
-        "mcc_71": 0.328,
+        "mcc_native": 0.328,
         "mcc_15": 0.296
       },
       "CodeFlowLM": {
-        "auc_71": 0.845,
+        "auc_native": 0.845,
         "auc_15": 0.821,
-        "f1_71": 0.818,
+        "f1_native": 0.818,
         "f1_15": 0.786,
-        "mcc_71": 0.618,
+        "mcc_native": 0.618,
         "mcc_15": 0.577
       },
       "MSTDP": {
-        "auc_71": 0.844,
+        "auc_native": 0.844,
         "auc_15": 0.826,
-        "f1_71": 0.814,
+        "f1_native": 0.814,
         "f1_15": 0.782,
-        "mcc_71": 0.608,
+        "mcc_native": 0.608,
         "mcc_15": 0.571
       },
       "DeepJIT": {
-        "auc_71": 0.802,
+        "auc_native": 0.802,
         "auc_15": 0.778,
-        "f1_71": 0.768,
+        "f1_native": 0.768,
         "f1_15": 0.734,
-        "mcc_71": 0.538,
+        "mcc_native": 0.538,
         "mcc_15": 0.496
       },
       "Chimera": {
-        "auc_71": 0.782,
+        "auc_native": 0.782,
         "auc_15": 0.756,
-        "f1_71": 0.752,
+        "f1_native": 0.752,
         "f1_15": 0.718,
-        "mcc_71": 0.496,
+        "mcc_native": 0.496,
         "mcc_15": 0.452
       },
       "GPT-4o (Few)": {
-        "auc_71": 0.812,
+        "auc_native": 0.812,
         "auc_15": 0.789,
-        "f1_71": 0.778,
+        "f1_native": 0.778,
         "f1_15": 0.746,
-        "mcc_71": 0.556,
+        "mcc_native": 0.556,
         "mcc_15": 0.518
       }
     }
@@ -197,7 +197,7 @@
   "_meta": {
     "data_status": "experimentally_verified",
     "updated_date": "2026-03-17",
-    "notes": "Experimentally verified on real GPU \u2014 results match preset values (2026-03-17). RQ7 deployment evaluation data backing Tables 9, 10, 11 in experiments.tex. rq7a_pairing_validation added R151.",
+    "notes": "Experimentally verified on real GPU — results match preset values (2026-03-17). RQ7 deployment evaluation data backing Tables 9, 10, 11 in experiments.tex. rq7a_pairing_validation added R151.",
     "v2_additions": "KD-on-real-CICD row added for reviewer 759B Q1 (2026-06-19)"
   }
 }

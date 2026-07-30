@@ -163,7 +163,7 @@ class BalancedDataset(Dataset):
     """Wrapper that downsamples positives to a target positive rate.
 
     Used for Strategy 2: evaluating under realistic class distribution
-    (real CI/CD positive rate ~5-15% vs training set 71.8%).
+    (real CI/CD positive rate ~5-15% vs training set 83.4%).
     """
     def __init__(self, base_dataset: CodeFaultDataset, target_positive_rate: float = 0.15,
                  seed: int = 42):
@@ -1059,11 +1059,11 @@ def run_rq4():
 def run_rq_class_distribution():
     """Evaluate CodeFault and top baselines under realistic class distribution.
 
-    Compares performance at 71.8% (training default) vs 15% positive rate,
+    Compares performance at 83.4% (training default) vs 15% positive rate,
     matching real CI/CD failure rates (~5-15%).
     """
     print("\n" + "="*60)
-    print("RQ: Class Distribution Sensitivity (71.8% vs 15% positive)")
+    print("RQ: Class Distribution Sensitivity (83.4% vs 15% positive)")
     print("="*60)
 
     train_dataset = CodeFaultDataset(DATA_DIR / "train.json")

@@ -7,7 +7,7 @@ Downloads and processes the following datasets:
 2. BugsInPy (492 bugs, Python) - from GitHub
 3. ManySStuBs4J (24,655 bugs, Java) - from Zenodo
 4. Loghub (BGL/HDFS/Thunderbird logs) - from GitHub
-5. Normal commits (10,202 benign samples) - mined from same repos
+5. Normal commits (5,160 benign samples) - mined from 20 Java/Python repos
 
 Usage:
     python download_datasets.py                    # Download all
