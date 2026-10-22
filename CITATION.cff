@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "CodeFault: Predicting Fault Risks from Code Changes via Multi-modal Learning"
+authors:
+  - family-names: "Xiao"
+    given-names: "Yifan"
+    orcid: "https://orcid.org/0009-0004-6447-3242"
+  - family-names: "Li"
+    given-names: "Shijie"
+    orcid: "https://orcid.org/0009-0002-5644-4527"
+  - family-names: "Huang"
+    given-names: "Yu"
+    orcid: "https://orcid.org/0000-0002-1138-1828"
+doi: "10.1145/3832783.3837462"
+repository-code: "https://github.com/qqyjx/CodeFault"
+license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21700762"
+    description: "Zenodo replication package (version DOI)"
+preferred-citation:
+  type: conference-paper
+  title: "CodeFault: Predicting Fault Risks from Code Changes via Multi-modal Learning"
+  authors:
+    - family-names: "Xiao"
+      given-names: "Yifan"
+      orcid: "https://orcid.org/0009-0004-6447-3242"
+    - family-names: "Li"
+      given-names: "Shijie"
+      orcid: "https://orcid.org/0009-0002-5644-4527"
+    - family-names: "Huang"
+      given-names: "Yu"
+      orcid: "https://orcid.org/0000-0002-1138-1828"
+  doi: "10.1145/3832783.3837462"
+  collection-title: "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering"
+  conference:
+    name: "ASE '26: 41st IEEE/ACM International Conference on Automated Software Engineering"
+    location: "Munich Germany"
+  publisher:
+    name: "ACM"
+  start: 2101
+  end: 2113
+  year: 2026
+  month: 10

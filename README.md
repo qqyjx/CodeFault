@@ -62,7 +62,39 @@ Pre-computed outputs for every table and figure are already in `results/`.
 
 ## Citation
 
-Citation entry will be added once the ACM DOI is assigned.
+If you use this code, please cite the paper:
+
+```bibtex
+@inproceedings{xiao2026codefault,
+  series = {ASE ’26},
+  title = {CodeFault: Predicting Fault Risks from Code Changes via Multi-modal Learning},
+  url = {http://dx.doi.org/10.1145/3832783.3837462},
+  DOI = {10.1145/3832783.3837462},
+  booktitle = {Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering},
+  publisher = {ACM},
+  author = {Xiao, Yifan and Li, Shijie and Huang, Yu},
+  year = {2026},
+  month = Oct,
+  pages = {2101--2113},
+  collection = {ASE ’26},
+}
+```
+
+### Artifact
+
+The replication package is archived on Zenodo:
+
+```bibtex
+@misc{xiao2026codefaultartifact,
+  doi = {10.5281/ZENODO.21700762},
+  url = {https://zenodo.org/doi/10.5281/zenodo.21700762},
+  author = {Xiao, Yifan and Li, Shijie and Huang, Yu},
+  title = {CodeFault: Predicting Fault Risks from Code Changes via Multi-modal Learning — Replication Package (ASE 2026)},
+  publisher = {Zenodo},
+  year = {2026},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+```
 
 ## License
 
