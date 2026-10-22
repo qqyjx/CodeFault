@@ -75,7 +75,7 @@ If you use this code, please cite the paper:
   author = {Xiao, Yifan and Li, Shijie and Huang, Yu},
   year = {2026},
   month = Oct,
-  pages = {2101–2113},
+  pages = {2101--2113},
   collection = {ASE ’26},
 }
 ```
